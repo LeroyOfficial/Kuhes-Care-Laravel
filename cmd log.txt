@@ -1,0 +1,1010 @@
+Microsoft Windows [Version 10.0.19045.3693]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\xampp\htdocs>laravel new kuhes-care
+
+   _                               _
+  | |                             | |
+  | |     __ _ _ __ __ ___   _____| |
+  | |    / _` | '__/ _` \ \ / / _ \ |
+  | |___| (_| | | | (_| |\ V /  __/ |
+  |______\__,_|_|  \__,_| \_/ \___|_|
+
+    Creating a "laravel/laravel" project at "./kuhes-care"
+    Cannot use laravel/laravel's latest version v11.0.1 as it requires php ^8.2 which is not satisfied by your platform.
+Installing laravel/laravel (v9.5.2)
+      - Installing laravel/laravel (v9.5.2): Extracting archive
+    Created project in C:\xampp\htdocs/kuhes-care
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+    Loading composer repositories with package information
+    Updating dependencies
+    Lock file operations: 113 installs, 0 updates, 0 removals
+  - Locking brick/math (0.11.0)
+  - Locking carbonphp/carbon-doctrine-types (2.1.0)
+  - Locking dflydev/dot-access-data (v3.0.2)
+  - Locking doctrine/deprecations (1.1.3)
+  - Locking doctrine/inflector (2.0.10)
+  - Locking doctrine/instantiator (1.5.0)
+  - Locking doctrine/lexer (2.1.1)
+  - Locking dragonmantank/cron-expression (v3.3.3)
+  - Locking egulias/email-validator (3.2.6)
+  - Locking fakerphp/faker (v1.23.1)
+  - Locking filp/whoops (2.15.4)
+  - Locking fruitcake/php-cors (v1.3.0)
+  - Locking graham-campbell/result-type (v1.1.2)
+  - Locking guzzlehttp/guzzle (7.8.1)
+  - Locking guzzlehttp/promises (2.0.2)
+  - Locking guzzlehttp/psr7 (2.6.2)
+  - Locking guzzlehttp/uri-template (v1.0.3)
+  - Locking hamcrest/hamcrest-php (v2.0.1)
+  - Locking laravel/framework (v9.52.16)
+  - Locking laravel/pint (v1.5.0)
+  - Locking laravel/sail (v1.29.0)
+  - Locking laravel/sanctum (v3.3.3)
+  - Locking laravel/serializable-closure (v1.3.3)
+  - Locking laravel/tinker (v2.9.0)
+  - Locking league/commonmark (2.4.2)
+  - Locking league/config (v1.2.0)
+  - Locking league/flysystem (3.25.0)
+  - Locking league/flysystem-local (3.23.1)
+  - Locking league/mime-type-detection (1.15.0)
+  - Locking mockery/mockery (1.6.9)
+  - Locking monolog/monolog (2.9.2)
+  - Locking myclabs/deep-copy (1.11.1)
+  - Locking nesbot/carbon (2.72.3)
+  - Locking nette/schema (v1.2.5)
+  - Locking nette/utils (v4.0.4)
+  - Locking nikic/php-parser (v5.0.2)
+  - Locking nunomaduro/collision (v6.4.0)
+  - Locking nunomaduro/termwind (v1.15.1)
+  - Locking phar-io/manifest (2.0.4)
+  - Locking phar-io/version (3.2.1)
+  - Locking phpoption/phpoption (1.9.2)
+  - Locking phpunit/php-code-coverage (9.2.31)
+  - Locking phpunit/php-file-iterator (3.0.6)
+  - Locking phpunit/php-invoker (3.1.1)
+  - Locking phpunit/php-text-template (2.0.4)
+  - Locking phpunit/php-timer (5.0.3)
+  - Locking phpunit/phpunit (9.6.17)
+  - Locking psr/clock (1.0.0)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/http-client (1.0.3)
+  - Locking psr/http-factory (1.0.2)
+  - Locking psr/http-message (2.0)
+  - Locking psr/log (3.0.0)
+  - Locking psr/simple-cache (3.0.0)
+  - Locking psy/psysh (v0.12.0)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking ramsey/collection (1.3.0)
+  - Locking ramsey/uuid (4.7.5)
+  - Locking sebastian/cli-parser (1.0.2)
+  - Locking sebastian/code-unit (1.0.8)
+  - Locking sebastian/code-unit-reverse-lookup (2.0.3)
+  - Locking sebastian/comparator (4.0.8)
+  - Locking sebastian/complexity (2.0.3)
+  - Locking sebastian/diff (4.0.6)
+  - Locking sebastian/environment (5.1.5)
+  - Locking sebastian/exporter (4.0.6)
+  - Locking sebastian/global-state (5.0.7)
+  - Locking sebastian/lines-of-code (1.0.4)
+  - Locking sebastian/object-enumerator (4.0.4)
+  - Locking sebastian/object-reflector (2.0.4)
+  - Locking sebastian/recursion-context (4.0.5)
+  - Locking sebastian/resource-operations (3.0.3)
+  - Locking sebastian/type (3.2.1)
+  - Locking sebastian/version (3.0.2)
+  - Locking spatie/backtrace (1.5.3)
+  - Locking spatie/flare-client-php (1.4.4)
+  - Locking spatie/ignition (1.12.0)
+  - Locking spatie/laravel-ignition (1.6.4)
+  - Locking symfony/console (v6.0.19)
+  - Locking symfony/css-selector (v6.0.19)
+  - Locking symfony/deprecation-contracts (v3.0.2)
+  - Locking symfony/error-handler (v6.0.19)
+  - Locking symfony/event-dispatcher (v6.0.19)
+  - Locking symfony/event-dispatcher-contracts (v3.0.2)
+  - Locking symfony/finder (v6.0.19)
+  - Locking symfony/http-foundation (v6.0.20)
+  - Locking symfony/http-kernel (v6.0.20)
+  - Locking symfony/mailer (v6.0.19)
+  - Locking symfony/mime (v6.0.19)
+  - Locking symfony/polyfill-ctype (v1.29.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.29.0)
+  - Locking symfony/polyfill-intl-idn (v1.29.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.29.0)
+  - Locking symfony/polyfill-mbstring (v1.29.0)
+  - Locking symfony/polyfill-php72 (v1.29.0)
+  - Locking symfony/polyfill-php80 (v1.29.0)
+  - Locking symfony/polyfill-php81 (v1.29.0)
+  - Locking symfony/polyfill-uuid (v1.29.0)
+  - Locking symfony/process (v6.0.19)
+  - Locking symfony/routing (v6.0.19)
+  - Locking symfony/service-contracts (v3.0.2)
+  - Locking symfony/string (v6.0.19)
+  - Locking symfony/translation (v6.0.19)
+  - Locking symfony/translation-contracts (v3.0.2)
+  - Locking symfony/uid (v6.0.19)
+  - Locking symfony/var-dumper (v6.0.19)
+  - Locking symfony/yaml (v6.0.19)
+  - Locking theseer/tokenizer (1.2.3)
+  - Locking tijsverkoyen/css-to-inline-styles (v2.2.7)
+  - Locking vlucas/phpdotenv (v5.6.0)
+  - Locking voku/portable-ascii (2.0.1)
+  - Locking webmozart/assert (1.11.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 113 installs, 0 updates, 0 removals
+      - Downloading league/flysystem (3.25.0)
+      - Downloading laravel/sail (v1.29.0)
+      - Downloading nikic/php-parser (v5.0.2)
+      - Downloading sebastian/global-state (5.0.7)
+  - Downloading sebastian/exporter (4.0.6)
+      - Downloading sebastian/diff (4.0.6)
+  - Downloading sebastian/cli-parser (1.0.2)
+      - Downloading theseer/tokenizer (1.2.3)
+      - Downloading phpunit/php-code-coverage (9.2.31)
+      - Downloading phar-io/manifest (2.0.4)
+      0/10 [>---------------------------]   0%
+  2/10 [=====>----------------------]  20%
+  6/10 [================>-----------]  60%
+  7/10 [===================>--------]  70%
+  8/10 [======================>-----]  80%
+  9/10 [=========================>--]  90%
+ 10/10 [============================] 100%
+  - Installing doctrine/inflector (2.0.10): Extracting archive
+      - Installing doctrine/deprecations (1.1.3): Extracting archive
+  - Installing doctrine/lexer (2.1.1): Extracting archive
+      - Installing symfony/polyfill-ctype (v1.29.0): Extracting archive
+  - Installing webmozart/assert (1.11.0): Extracting archive
+  - Installing dragonmantank/cron-expression (v3.3.3): Extracting archive
+      - Installing symfony/deprecation-contracts (v3.0.2): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing fakerphp/faker (v1.23.1): Extracting archive
+      - Installing symfony/polyfill-mbstring (v1.29.0): Extracting archive
+  - Installing symfony/http-foundation (v6.0.20): Extracting archive
+      - Installing fruitcake/php-cors (v1.3.0): Extracting archive
+      - Installing psr/http-message (2.0): Extracting archive
+      - Installing psr/http-client (1.0.3): Extracting archive
+      - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+      - Installing psr/http-factory (1.0.2): Extracting archive
+      - Installing guzzlehttp/psr7 (2.6.2): Extracting archive
+      - Installing guzzlehttp/promises (2.0.2): Extracting archive
+      - Installing guzzlehttp/guzzle (7.8.1): Extracting archive
+      - Installing symfony/polyfill-php80 (v1.29.0): Extracting archive
+      - Installing guzzlehttp/uri-template (v1.0.3): Extracting archive
+      - Installing laravel/pint (v1.5.0): Extracting archive
+      - Installing symfony/yaml (v6.0.19): Extracting archive
+      - Installing voku/portable-ascii (2.0.1): Extracting archive
+      - Installing phpoption/phpoption (1.9.2): Extracting archive
+      - Installing graham-campbell/result-type (v1.1.2): Extracting archive
+      - Installing vlucas/phpdotenv (v5.6.0): Extracting archive
+      - Installing symfony/css-selector (v6.0.19): Extracting archive
+      - Installing tijsverkoyen/css-to-inline-styles (v2.2.7): Extracting archive
+      - Installing symfony/var-dumper (v6.0.19): Extracting archive
+      - Installing symfony/polyfill-uuid (v1.29.0): Extracting archive
+  - Installing symfony/uid (v6.0.19): Extracting archive
+      - Installing symfony/routing (v6.0.19): Extracting archive
+      - Installing symfony/process (v6.0.19): Extracting archive
+      - Installing symfony/polyfill-php72 (v1.29.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.29.0): Extracting archive
+      - Installing symfony/polyfill-intl-idn (v1.29.0): Extracting archive
+      - Installing symfony/mime (v6.0.19): Extracting archive
+      - Installing symfony/service-contracts (v3.0.2): Extracting archive
+      - Installing psr/event-dispatcher (1.0.0): Extracting archive
+      - Installing symfony/event-dispatcher-contracts (v3.0.2): Extracting archive
+      - Installing symfony/event-dispatcher (v6.0.19): Extracting archive
+      - Installing psr/log (3.0.0): Extracting archive
+      - Installing egulias/email-validator (3.2.6): Extracting archive
+      - Installing symfony/mailer (v6.0.19): Extracting archive
+      - Installing symfony/error-handler (v6.0.19): Extracting archive
+      - Installing symfony/http-kernel (v6.0.20): Extracting archive
+      - Installing symfony/finder (v6.0.19): Extracting archive
+      - Installing symfony/polyfill-intl-grapheme (v1.29.0): Extracting archive
+      - Installing symfony/string (v6.0.19): Extracting archive
+      - Installing symfony/console (v6.0.19): Extracting archive
+      - Installing symfony/polyfill-php81 (v1.29.0): Extracting archive
+      - Installing ramsey/collection (1.3.0): Extracting archive
+      - Installing brick/math (0.11.0): Extracting archive
+      - Installing ramsey/uuid (4.7.5): Extracting archive
+      - Installing psr/simple-cache (3.0.0): Extracting archive
+      - Installing nunomaduro/termwind (v1.15.1): Extracting archive
+      - Installing symfony/translation-contracts (v3.0.2): Extracting archive
+      - Installing symfony/translation (v6.0.19): Extracting archive
+      - Installing psr/clock (1.0.0): Extracting archive
+      - Installing carbonphp/carbon-doctrine-types (2.1.0): Extracting archive
+      - Installing nesbot/carbon (2.72.3): Extracting archive
+      - Installing monolog/monolog (2.9.2): Extracting archive
+      - Installing league/mime-type-detection (1.15.0): Extracting archive
+      - Installing league/flysystem (3.25.0): Extracting archive
+      - Installing league/flysystem-local (3.23.1): Extracting archive
+      - Installing nette/utils (v4.0.4): Extracting archive
+      - Installing nette/schema (v1.2.5): Extracting archive
+      - Installing dflydev/dot-access-data (v3.0.2): Extracting archive
+      - Installing league/config (v1.2.0): Extracting archive
+      - Installing league/commonmark (2.4.2): Extracting archive
+      - Installing laravel/serializable-closure (v1.3.3): Extracting archive
+      - Installing laravel/framework (v9.52.16): Extracting archive
+      - Installing laravel/sail (v1.29.0): Extracting archive
+      - Installing laravel/sanctum (v3.3.3): Extracting archive
+      - Installing nikic/php-parser (v5.0.2): Extracting archive
+      - Installing psy/psysh (v0.12.0): Extracting archive
+      - Installing laravel/tinker (v2.9.0): Extracting archive
+      - Installing hamcrest/hamcrest-php (v2.0.1): Extracting archive
+      - Installing mockery/mockery (1.6.9): Extracting archive
+      - Installing filp/whoops (2.15.4): Extracting archive
+      - Installing nunomaduro/collision (v6.4.0): Extracting archive
+      - Installing sebastian/version (3.0.2): Extracting archive
+      - Installing sebastian/type (3.2.1): Extracting archive
+      - Installing sebastian/resource-operations (3.0.3): Extracting archive
+      - Installing sebastian/recursion-context (4.0.5): Extracting archive
+      - Installing sebastian/object-reflector (2.0.4): Extracting archive
+      - Installing sebastian/object-enumerator (4.0.4): Extracting archive
+      - Installing sebastian/global-state (5.0.7): Extracting archive
+      - Installing sebastian/exporter (4.0.6): Extracting archive
+      - Installing sebastian/environment (5.1.5): Extracting archive
+      - Installing sebastian/diff (4.0.6): Extracting archive
+      - Installing sebastian/comparator (4.0.8): Extracting archive
+      - Installing sebastian/code-unit (1.0.8): Extracting archive
+      - Installing sebastian/cli-parser (1.0.2): Extracting archive
+      - Installing phpunit/php-timer (5.0.3): Extracting archive
+      - Installing phpunit/php-text-template (2.0.4): Extracting archive
+      - Installing phpunit/php-invoker (3.1.1): Extracting archive
+      - Installing phpunit/php-file-iterator (3.0.6): Extracting archive
+      - Installing theseer/tokenizer (1.2.3): Extracting archive
+      - Installing sebastian/lines-of-code (1.0.4): Extracting archive
+      - Installing sebastian/complexity (2.0.3): Extracting archive
+      - Installing sebastian/code-unit-reverse-lookup (2.0.3): Extracting archive
+      - Installing phpunit/php-code-coverage (9.2.31): Extracting archive
+      - Installing phar-io/version (3.2.1): Extracting archive
+      - Installing phar-io/manifest (2.0.4): Extracting archive
+      - Installing myclabs/deep-copy (1.11.1): Extracting archive
+      - Installing doctrine/instantiator (1.5.0): Extracting archive
+      - Installing phpunit/phpunit (9.6.17): Extracting archive
+      - Installing spatie/backtrace (1.5.3): Extracting archive
+      - Installing spatie/flare-client-php (1.4.4): Extracting archive
+      - Installing spatie/ignition (1.12.0): Extracting archive
+      - Installing spatie/laravel-ignition (1.6.4): Extracting archive
+       0/103 [>---------------------------]   0%
+   6/103 [=>--------------------------]   5%
+  16/103 [====>-----------------------]  15%
+  26/103 [=======>--------------------]  25%
+  36/103 [=========>------------------]  34%
+  46/103 [============>---------------]  44%
+  56/103 [===============>------------]  54%
+  66/103 [=================>----------]  64%
+  76/103 [====================>-------]  73%
+  86/103 [=======================>----]  83%
+  95/103 [=========================>--]  92%
+ 103/103 [============================] 100%
+    72 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+    > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+    > @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+    86 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+    > @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+    No security vulnerability advisories found.
+    > @php artisan key:generate --ansi
+
+   INFO  Application key set successfully.
+
+   INFO  Application ready! Build something amazing.
+
+C:\xampp\htdocs>cd kuhes-care
+
+C:\xampp\htdocs>
+
+C:\xampp\htdocs\kuhes-care>composer require laravel/jetstream
+Cannot use laravel/jetstream's latest version v5.0.2 as it requires php ^8.2.0 which is not satisfied by your platform.
+./composer.json has been updated
+Running composer update laravel/jetstream
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 9 installs, 0 updates, 0 removals
+  - Locking bacon/bacon-qr-code (2.0.8)
+  - Locking dasprid/enum (1.0.5)
+  - Locking jaybizzle/crawler-detect (v1.2.117)
+  - Locking jenssegers/agent (v2.6.4)
+  - Locking laravel/fortify (v1.19.1)
+  - Locking laravel/jetstream (v3.0.2)
+  - Locking mobiledetect/mobiledetectlib (2.8.45)
+  - Locking paragonie/constant_time_encoding (v2.6.3)
+  - Locking pragmarx/google2fa (v8.0.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 9 installs, 0 updates, 0 removals
+  - Downloading jaybizzle/crawler-detect (v1.2.117)
+  - Installing dasprid/enum (1.0.5): Extracting archive
+  - Installing bacon/bacon-qr-code (2.0.8): Extracting archive
+  - Installing jaybizzle/crawler-detect (v1.2.117): Extracting archive
+  - Installing paragonie/constant_time_encoding (v2.6.3): Extracting archive
+  - Installing pragmarx/google2fa (v8.0.1): Extracting archive
+  - Installing laravel/fortify (v1.19.1): Extracting archive
+  - Installing mobiledetect/mobiledetectlib (2.8.45): Extracting archive
+  - Installing jenssegers/agent (v2.6.4): Extracting archive
+  - Installing laravel/jetstream (v3.0.2): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^3.0 for laravel/jetstream
+
+C:\xampp\htdocs\kuhes-care>php artisan jetstream:install livewire --teams
+
+   INFO  Migration created successfully.
+
+./composer.json has been updated
+Running composer update livewire/livewire
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking livewire/livewire (v2.12.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing livewire/livewire (v2.12.6): Extracting archive
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+88 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+
+   INFO  Publishing assets.
+
+  Copying directory [C:\xampp\htdocs\kuhes-care\vendor\laravel\sanctum\database\migrations] to [C:\xampp\htdocs\kuhes-care\database\migrations]  DONE
+  Copying file [C:\xampp\htdocs\kuhes-care\vendor\laravel\sanctum\config\sanctum.php] to [C:\xampp\htdocs\kuhes-care\config\sanctum.php]  DONE
+
+
+added 151 packages, and audited 152 packages in 2m
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> build
+> vite build
+
+    vite v4.5.3 building for production...
+    transforming...
+    ✓ 52 modules transformed.
+    rendering chunks...
+    computing gzip size...
+public/build/manifest.json              0.26 kB │ gzip:  0.13 kB
+public/build/assets/app-b5a4c4aa.css   48.72 kB │ gzip:  8.19 kB
+    public/build/assets/app-9488b6cd.js   161.55 kB │ gzip: 58.77 kB
+✓ built in 13.89s
+
+   INFO  Livewire scaffolding installed successfully.
+
+
+C:\xampp\htdocs\kuhes-care>
+
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ................................................................................ 807ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table .................................................................... 832ms DONE
+  2014_10_12_100000_create_password_resets_table ........................................................ 1,177ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................. 369ms DONE
+  2019_08_19_000000_create_failed_jobs_table .............................................................. 561ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table ................................................. 1,171ms DONE
+  2020_05_21_100000_create_teams_table .................................................................... 690ms DONE
+  2020_05_21_200000_create_team_user_table ................................................................ 758ms DONE
+  2020_05_21_300000_create_team_invitations_table ....................................................... 5,118ms DONE
+  2024_04_04_093805_create_sessions_table ............................................................... 1,776ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ................................................................................ 570ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table .................................................................. 1,240ms DONE
+  2014_10_12_100000_create_password_resets_table ........................................................ 1,644ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................. 410ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................ 1,603ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table ................................................. 2,786ms DONE
+  2020_05_21_100000_create_teams_table .................................................................. 1,406ms DONE
+  2020_05_21_200000_create_team_user_table ................................................................ 964ms DONE
+  2020_05_21_300000_create_team_invitations_table ....................................................... 4,940ms DONE
+  2024_04_04_093805_create_sessions_table ............................................................... 3,022ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan Client -m
+
+   ERROR  Command "Client" is not defined.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:model Client -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Client.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115354_create_clients_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Running migrations.
+
+  2024_04_04_115354_create_clients_table .................................................................. 457ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:model Therapist -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Therapist.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115712_create_therapists_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Chat -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Chat.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115724_create_chats_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Message -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Message.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115736_create_messages_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Blog -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Blog.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115806_create_blogs_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model BlogComment -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/BlogComment.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115902_create_blog_comments_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model BlogCommentReply -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/BlogCommentReply.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115924_create_blog_comment_replies_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Post -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Post.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115940_create_posts_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model PostComment -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/PostComment.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115949_create_post_comments_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model PostCommentReply -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/PostCommentReply.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_115959_create_post_comment_replies_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Video -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Video.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120015_create_videos_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model VideoComment -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/VideoComment.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120026_create_video_comments_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model VideoCommentReply -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/VideoCommentReply.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120035_create_video_comment_replies_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model Book -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Book.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120100_create_books_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model BookComment -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/BookComment.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120110_create_book_comments_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model BookCommentReply -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/BookCommentReply.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_120119_create_book_comment_replies_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan make:model PeerPost -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/PeerPost.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_121026_create_peer_posts_table.php] created successfully.
+
+^C
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Running migrations.
+
+  2024_04_04_115712_create_therapists_table ............................................................... 825ms DONE
+  2024_04_04_115724_create_chats_table .................................................................... 476ms DONE
+  2024_04_04_115736_create_messages_table ................................................................. 519ms DONE
+  2024_04_04_115806_create_blogs_table .................................................................... 516ms DONE
+  2024_04_04_115902_create_blog_comments_table ............................................................ 296ms DONE
+  2024_04_04_115924_create_blog_comment_replies_table ..................................................... 374ms DONE
+  2024_04_04_115940_create_posts_table .................................................................... 952ms DONE
+  2024_04_04_115949_create_post_comments_table ............................................................ 625ms DONE
+  2024_04_04_115959_create_post_comment_replies_table ..................................................... 806ms DONE
+  2024_04_04_120015_create_videos_table ................................................................... 610ms DONE
+  2024_04_04_120026_create_video_comments_table ........................................................... 688ms DONE
+  2024_04_04_120035_create_video_comment_replies_table .................................................... 474ms DONE
+  2024_04_04_120100_create_books_table .................................................................... 744ms DONE
+  2024_04_04_120110_create_book_comments_table ............................................................ 266ms DONE
+  2024_04_04_120119_create_book_comment_replies_table ................................................... 2,024ms DONE
+  2024_04_04_121026_create_peer_posts_table ............................................................... 386ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:model Payment -m
+
+   INFO  Model [C:\xampp\htdocs\kuhes-care\app/Models/Payment.php] created successfully.
+
+   INFO  Migration [C:\xampp\htdocs\kuhes-care\database\migrations/2024_04_04_123358_create_payments_table.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:middleware IsClient
+
+   INFO  Middleware [C:\xampp\htdocs\kuhes-care\app/Http/Middleware/IsClient.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:middleware IsAdmin
+
+   INFO  Middleware [C:\xampp\htdocs\kuhes-care\app/Http/Middleware/IsAdmin.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:middleware IsTherapist
+
+   INFO  Middleware [C:\xampp\htdocs\kuhes-care\app/Http/Middleware/IsTherapist.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Running migrations.
+
+  2024_04_04_123358_create_payments_table ............................................................... 2,409ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ................................................................................ 664ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table .................................................................. 1,541ms DONE
+  2014_10_12_100000_create_password_resets_table ........................................................ 2,860ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................. 540ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................ 1,319ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table ................................................. 1,453ms DONE
+  2020_05_21_100000_create_teams_table .................................................................. 1,200ms DONE
+  2020_05_21_200000_create_team_user_table .............................................................. 1,198ms DONE
+  2020_05_21_300000_create_team_invitations_table ....................................................... 3,657ms DONE
+  2024_04_04_093805_create_sessions_table ............................................................... 3,976ms DONE
+  2024_04_04_115354_create_clients_table .................................................................. 652ms DONE
+  2024_04_04_115712_create_therapists_table ............................................................... 537ms DONE
+  2024_04_04_115724_create_chats_table .................................................................... 400ms DONE
+  2024_04_04_115736_create_messages_table ................................................................. 405ms DONE
+  2024_04_04_115806_create_blogs_table .................................................................... 808ms DONE
+  2024_04_04_115902_create_blog_comments_table ............................................................ 665ms DONE
+  2024_04_04_115924_create_blog_comment_replies_table ..................................................... 312ms DONE
+  2024_04_04_115940_create_posts_table .................................................................... 436ms DONE
+  2024_04_04_115949_create_post_comments_table ............................................................ 483ms DONE
+  2024_04_04_115959_create_post_comment_replies_table ..................................................... 627ms DONE
+  2024_04_04_120015_create_videos_table ................................................................... 323ms DONE
+  2024_04_04_120026_create_video_comments_table ........................................................... 883ms DONE
+  2024_04_04_120035_create_video_comment_replies_table .................................................. 1,109ms DONE
+  2024_04_04_120100_create_books_table .................................................................... 506ms DONE
+  2024_04_04_120110_create_book_comments_table ............................................................ 929ms DONE
+  2024_04_04_120119_create_book_comment_replies_table ................................................... 1,123ms DONE
+  2024_04_04_121026_create_peer_posts_table ............................................................. 1,218ms DONE
+  2024_04_04_123358_create_payments_table ................................................................. 283ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ................................................................................ 724ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table .................................................................. 5,485ms DONE
+  2014_10_12_100000_create_password_resets_table ........................................................ 2,076ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................. 715ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................ 1,507ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table ................................................. 2,153ms DONE
+  2020_05_21_100000_create_teams_table .................................................................... 967ms DONE
+  2020_05_21_200000_create_team_user_table .............................................................. 1,409ms DONE
+  2020_05_21_300000_create_team_invitations_table ....................................................... 4,968ms DONE
+  2024_04_04_093805_create_sessions_table ............................................................... 8,337ms DONE
+  2024_04_04_115354_create_clients_table ................................................................ 1,267ms DONE
+  2024_04_04_115712_create_therapists_table ............................................................. 1,059ms DONE
+  2024_04_04_115724_create_chats_table .................................................................... 824ms DONE
+  2024_04_04_115736_create_messages_table ................................................................. 857ms DONE
+  2024_04_04_115806_create_blogs_table .................................................................... 865ms DONE
+  2024_04_04_115902_create_blog_comments_table ............................................................ 630ms DONE
+  2024_04_04_115924_create_blog_comment_replies_table ................................................... 2,314ms DONE
+  2024_04_04_115940_create_posts_table .................................................................... 683ms DONE
+  2024_04_04_115949_create_post_comments_table ............................................................ 675ms DONE
+  2024_04_04_115959_create_post_comment_replies_table ................................................... 1,673ms DONE
+  2024_04_04_120015_create_videos_table ................................................................... 676ms DONE
+  2024_04_04_120026_create_video_comments_table ........................................................... 415ms DONE
+  2024_04_04_120035_create_video_comment_replies_table .................................................... 705ms DONE
+  2024_04_04_120100_create_books_table .................................................................... 527ms DONE
+  2024_04_04_120110_create_book_comments_table ............................................................ 681ms DONE
+  2024_04_04_120119_create_book_comment_replies_table ..................................................... 400ms DONE
+  2024_04_04_121026_create_peer_posts_table ............................................................... 501ms DONE
+  2024_04_04_123358_create_payments_table ................................................................. 658ms DONE
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:controller AdminController
+
+   INFO  Controller [C:\xampp\htdocs\kuhes-care\app/Http/Controllers/AdminController.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:controller TherapistController
+
+   INFO  Controller [C:\xampp\htdocs\kuhes-care\app/Http/Controllers/TherapistController.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:controller UserController
+
+   INFO  Controller [C:\xampp\htdocs\kuhes-care\app/Http/Controllers/UserController.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:controller HomeController
+
+   INFO  Controller [C:\xampp\htdocs\kuhes-care\app/Http/Controllers/HomeController.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>
+
+C:\xampp\htdocs\kuhes-care>npm i agora-rtc-sdk-ng
+(node:5176) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5176) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(node:5176) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+
+added 13 packages, and audited 165 packages in 1m
+
+39 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\xampp\htdocs\kuhes-care>composer require agora/rtc-token-builder
+
+In PackageDiscoveryTrait.php line 376:
+
+  Could not find a matching version of package agora/rtc-token-builder. Check the package spelling, your version cons
+  traint and that the package is available in a stability which matches your minimum-stability (stable).
+
+
+require [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--no-audit] [--audit-format AUDIT-FORMAT] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [-m|--minimal-changes] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...]
+
+
+C:\xampp\htdocs\kuhes-care>composer require pusher/pusher-php-server
+./composer.json has been updated
+Running composer update pusher/pusher-php-server
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 3 installs, 0 updates, 0 removals
+  - Locking paragonie/random_compat (v9.99.100)
+  - Locking paragonie/sodium_compat (v1.20.1)
+  - Locking pusher/pusher-php-server (7.2.4)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 3 installs, 0 updates, 0 removals
+  - Downloading paragonie/random_compat (v9.99.100)
+  - Downloading paragonie/sodium_compat (v1.20.1)
+  - Downloading pusher/pusher-php-server (7.2.4)
+  - Installing paragonie/random_compat (v9.99.100): Extracting archive
+  - Installing paragonie/sodium_compat (v1.20.1): Extracting archive
+  - Installing pusher/pusher-php-server (7.2.4): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+88 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^7.2 for pusher/pusher-php-server
+
+C:\xampp\htdocs\kuhes-care>
+
+
+C:\xampp\htdocs\kuhes-care>php artisan make:event PusherBroadcast
+
+   INFO  Event [C:\xampp\htdocs\kuhes-care\app/Events/PusherBroadcast.php] created successfully.
+
+
+C:\xampp\htdocs\kuhes-care>
+
+
+C:\xampp\htdocs\kuhes-care>composer require barryvdh/laravel-dompdf
+./composer.json has been updated
+Running composer update barryvdh/laravel-dompdf
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 6 installs, 0 updates, 0 removals
+  - Locking barryvdh/laravel-dompdf (v2.1.1)
+  - Locking dompdf/dompdf (v2.0.4)
+  - Locking masterminds/html5 (2.9.0)
+  - Locking phenx/php-font-lib (0.5.6)
+  - Locking phenx/php-svg-lib (0.5.3)
+  - Locking sabberworm/php-css-parser (v8.5.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 6 installs, 0 updates, 0 removals
+  - Downloading masterminds/html5 (2.9.0)
+  - Installing sabberworm/php-css-parser (v8.5.1): Extracting archive
+  - Installing phenx/php-svg-lib (0.5.3): Extracting archive
+  - Installing phenx/php-font-lib (0.5.6): Extracting archive
+  - Installing masterminds/html5 (2.9.0): Extracting archive
+  - Installing dompdf/dompdf (v2.0.4): Extracting archive
+  - Installing barryvdh/laravel-dompdf (v2.1.1): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  barryvdh/laravel-dompdf ....................................................................................... DONE
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+89 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^2.1 for barryvdh/laravel-dompdf
+
+C:\xampp\htdocs\kuhes-care>
+
+C:\xampp\htdocs\kuhes-care>php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+
+   INFO  Publishing assets.
+
+  Copying file [C:\xampp\htdocs\kuhes-care\vendor\barryvdh\laravel-dompdf\config\dompdf.php] to [C:\xampp\htdocs\kuhes-care\config\dompdf.php]  DONE
+
+
+C:\xampp\htdocs\kuhes-care>
+
+C:\xampp\htdocs\kuhes-care>composer require haruncpi/laravel-id-generator
+./composer.json has been updated
+Running composer update haruncpi/laravel-id-generator
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking haruncpi/laravel-id-generator (v1.1.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading haruncpi/laravel-id-generator (v1.1.0)
+  - Installing haruncpi/laravel-id-generator (v1.1.0): Extracting archive
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  barryvdh/laravel-dompdf ....................................................................................... DONE
+  haruncpi/laravel-id-generator ................................................................................. DONE
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+89 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^1.1 for haruncpi/laravel-id-generator
+
+C:\xampp\htdocs\kuhes-care>php artisan vendor:publish --provider="Haruncpi\LaravelIdGenerator\IdGeneratorServiceProvider"
+
+   INFO  No publishable resources for tag [].
+
+
+C:\xampp\htdocs\kuhes-care>
+
+
+C:\xampp\htdocs\kuhes-care>composer require php-ffmpeg/php-ffmpeg
+./composer.json has been updated
+Running composer update php-ffmpeg/php-ffmpeg
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 7 installs, 0 updates, 0 removals
+  - Locking evenement/evenement (v3.0.2)
+  - Locking php-ffmpeg/php-ffmpeg (v1.2.0)
+  - Locking psr/cache (3.0.0)
+  - Locking spatie/temporary-directory (2.2.1)
+  - Locking symfony/cache (v6.0.19)
+  - Locking symfony/cache-contracts (v3.0.2)
+  - Locking symfony/var-exporter (v6.0.19)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 7 installs, 0 updates, 0 removals
+  - Downloading symfony/var-exporter (v6.0.19)
+  - Downloading psr/cache (3.0.0)
+  - Downloading symfony/cache-contracts (v3.0.2)
+  - Downloading symfony/cache (v6.0.19)
+  - Downloading spatie/temporary-directory (2.2.1)
+  - Downloading evenement/evenement (v3.0.2)
+  - Downloading php-ffmpeg/php-ffmpeg (v1.2.0)
+  - Installing symfony/var-exporter (v6.0.19): Extracting archive
+  - Installing psr/cache (3.0.0): Extracting archive
+  - Installing symfony/cache-contracts (v3.0.2): Extracting archive
+  - Installing symfony/cache (v6.0.19): Extracting archive
+  - Installing spatie/temporary-directory (2.2.1): Extracting archive
+  - Installing evenement/evenement (v3.0.2): Extracting archive
+  - Installing php-ffmpeg/php-ffmpeg (v1.2.0): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  barryvdh/laravel-dompdf ....................................................................................... DONE
+  haruncpi/laravel-id-generator ................................................................................. DONE
+  jenssegers/agent .............................................................................................. DONE
+  laravel/fortify ............................................................................................... DONE
+  laravel/jetstream ............................................................................................. DONE
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+93 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+https://repo.packagist.org could not be fully loaded (curl error 28 while downloading https://repo.packagist.org/p2/brick/math.json: Connection timed out after 10093 milliseconds), package information was loaded from the local cache and may be out of date
+No security vulnerability advisories found.
+Using version ^1.2 for php-ffmpeg/php-ffmpeg
+
+C:\xampp\htdocs\kuhes-care>
+
+INSERT INTO `users`(`id`, `name`, `user_type`, `phone_number`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `two_factor_confirmed_at`, `remember_token`, `current_team_id`, `profile_photo_path`, `last_seen`, `created_at`, `updated_at`) VALUES (null,'Leroy Namarika','admin','0993930231','leroynamarika@gmail.com',null,'$2y$10$CfCUNyva//xDUPrAgkD1I.8aICgTgFOmbs9/caVX7aCd3SyYPkB9.',null,null,null,null,null,null,now(),now(),now());
